@@ -34,7 +34,6 @@ export default async function NewListingPage() {
 
     return (
         <div className="container">
-            {JSON.stringify(organizationsNames)}
             <div>
                 <h2 className="text-lg mt-4">Your companies</h2>
                 <p className="text-gray-500 text-sm mb-2">Select a company to create a job add for</p>
